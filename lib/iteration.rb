@@ -14,7 +14,7 @@ def join_ingredients(src)
   while i < src.length do 
     j = 0 
     while j < src[i].length do
-      results.push("I love " + src[i][j] + "and " + src[i][j+1] + " on my pizza")
+      results.push("I love " + src[i][j] + " and " + src[i][j+1] + " on my pizza")
     j += 2
     end
   i += 1
