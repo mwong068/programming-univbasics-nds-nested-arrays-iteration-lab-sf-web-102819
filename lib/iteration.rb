@@ -9,11 +9,12 @@ def join_ingredients(src)
   
   array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
   
+  results = []
   i = 0 
   while i < src.length do 
     j = 0 
     while j < src[i].length do
-      puts "I love " + src[i][j] + "and " + src[i][j+1] + " on my pizza"
+      results.push("I love " + src[i][j] + "and " + src[i][j+1] + " on my pizza")
     j += 2
     end
   i += 1
